@@ -122,6 +122,64 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="X15_Brickstribution">
+<packages>
+<package name="BMR480_CONNECTOR">
+<wire x1="0" y1="0" x2="0" y2="37.8" width="0.1524" layer="21"/>
+<wire x1="0" y1="37.8" x2="59.4" y2="37.8" width="0.1524" layer="21"/>
+<wire x1="59.4" y1="37.8" x2="59.4" y2="0" width="0.1524" layer="21"/>
+<wire x1="59.4" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<pad name="P$1" x="4.06" y="26.52" drill="1.6" diameter="2"/>
+<pad name="P$2" x="4.06" y="18.9" drill="1.6" diameter="2"/>
+<pad name="P$3" x="4.06" y="11.28" drill="1.6" diameter="2"/>
+<pad name="P$8" x="54.86" y="30.33" drill="1.6" diameter="2"/>
+<pad name="P$7" x="54.86" y="26.52" drill="1.6" diameter="2"/>
+<pad name="P$5" x="54.86" y="11.28" drill="1.6" diameter="2"/>
+<pad name="P$4" x="54.86" y="7.47" drill="1.6" diameter="2"/>
+<text x="8.88" y="-0.84" size="1.778" layer="25" rot="R180">&gt;NAME</text>
+<text x="-0.38" y="38.31" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BMR480_CONNECTOR">
+<description>Power Brick Connector</description>
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="94"/>
+<pin name="+48V" x="-22.86" y="10.16" length="middle"/>
+<pin name="RMCONT" x="-22.86" y="0" length="middle"/>
+<pin name="48V_GND" x="-22.86" y="-10.16" length="middle"/>
+<pin name="12V_GND0" x="-15.24" y="-30.48" length="middle" rot="R90"/>
+<pin name="12V_GND1" x="-10.16" y="-30.48" length="middle" rot="R90"/>
+<pin name="+12V0" x="5.08" y="-30.48" length="middle" rot="R90"/>
+<pin name="+12V1" x="10.16" y="-30.48" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BMR480_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="BMR480_CONNECTOR" x="2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="BMR480_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="+12V0" pad="P$8"/>
+<connect gate="G$1" pin="+12V1" pad="P$7"/>
+<connect gate="G$1" pin="+48V" pad="P$1"/>
+<connect gate="G$1" pin="12V_GND0" pad="P$5"/>
+<connect gate="G$1" pin="12V_GND1" pad="P$4"/>
+<connect gate="G$1" pin="48V_GND" pad="P$3"/>
+<connect gate="G$1" pin="RMCONT" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -133,6 +191,7 @@ DIN A3, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="U$1" library="X15_Brickstribution" deviceset="BMR480_CONNECTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -144,6 +203,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
+<instance part="U$1" gate="G$1" x="53.34" y="198.12" smashed="yes"/>
 </instances>
 <busses>
 </busses>

@@ -1197,6 +1197,22 @@ DIN A3, landscape with location and doc. field</description>
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="MPPT-10-01-01-L-RA-SD(PLACEHOLDER)">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="1"/>
+<smd name="2" x="-2.54" y="2.54" dx="0.68" dy="0.3" layer="1"/>
+<smd name="3" x="-2.54" y="3.81" dx="0.68" dy="0.3" layer="1"/>
+<smd name="4" x="-2.54" y="1.27" dx="0.68" dy="0.3" layer="1"/>
+<smd name="5" x="-2.54" y="0" dx="0.68" dy="0.3" layer="1"/>
+<smd name="6" x="-2.54" y="-1.27" dx="0.68" dy="0.3" layer="1"/>
+<smd name="7" x="2.54" y="3.81" dx="0.68" dy="0.3" layer="1"/>
+<smd name="8" x="2.54" y="2.54" dx="0.68" dy="0.3" layer="1"/>
+<smd name="9" x="2.54" y="1.27" dx="0.68" dy="0.3" layer="1"/>
+<smd name="10" x="2.54" y="0" dx="0.68" dy="0.3" layer="1"/>
+<smd name="11" x="2.54" y="-1.27" dx="0.68" dy="0.3" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BMR480_CONNECTOR">
@@ -1372,6 +1388,24 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 <text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+<symbol name="MPPT-10-01-01-L-RA-SD">
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="94"/>
+<pin name="P$1" x="-12.7" y="22.86" length="middle" direction="nc"/>
+<pin name="P$2" x="-12.7" y="17.78" length="middle" direction="nc"/>
+<pin name="P$3" x="-12.7" y="12.7" length="middle" direction="nc"/>
+<pin name="P$4" x="-12.7" y="7.62" length="middle" direction="nc"/>
+<pin name="P$5" x="-12.7" y="2.54" length="middle" direction="nc"/>
+<pin name="P$6" x="-12.7" y="-2.54" length="middle" direction="nc"/>
+<pin name="P$7" x="-12.7" y="-7.62" length="middle" direction="nc"/>
+<pin name="P$8" x="-12.7" y="-12.7" length="middle" direction="nc"/>
+<pin name="P$9" x="-12.7" y="-17.78" length="middle" direction="nc"/>
+<pin name="P$10" x="-12.7" y="-22.86" length="middle" direction="nc"/>
+<wire x1="-7.62" y1="-25.4" x2="7.62" y2="-25.4" width="0.1524" layer="94"/>
+<text x="-7.62" y="25.4" size="2.0828" layer="95" ratio="6">&gt;NAME</text>
+<text x="-7.62" y="-27.94" size="2.0828" layer="95" ratio="6">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1579,6 +1613,30 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EMZR500ADA331MJA0G" constant="no"/>
 <attribute name="MFR_NAME" value="Nippon Chemi-Con" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN_MPPT-10-01-01-L-RA-SD">
+<gates>
+<gate name="A" symbol="MPPT-10-01-01-L-RA-SD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MPPT-10-01-01-L-RA-SD(PLACEHOLDER)">
+<connects>
+<connect gate="A" pin="P$1" pad="2"/>
+<connect gate="A" pin="P$10" pad="11"/>
+<connect gate="A" pin="P$2" pad="3"/>
+<connect gate="A" pin="P$3" pad="4"/>
+<connect gate="A" pin="P$4" pad="5"/>
+<connect gate="A" pin="P$5" pad="6"/>
+<connect gate="A" pin="P$6" pad="7"/>
+<connect gate="A" pin="P$7" pad="8"/>
+<connect gate="A" pin="P$8" pad="9"/>
+<connect gate="A" pin="P$9" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4448,6 +4506,7 @@ Used in manufacturing several products at SparkFun.
 <part name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-WHITE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="WHITE"/>
+<part name="BACKPLANE_POWER" library="X15_Brickstribution" deviceset="CONN_MPPT-10-01-01-L-RA-SD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4636,6 +4695,10 @@ Used in manufacturing several products at SparkFun.
 <attribute name="NAME" x="334.772" y="72.771" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="334.772" y="78.105" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
+<instance part="BACKPLANE_POWER" gate="A" x="355.6" y="180.34" smashed="yes">
+<attribute name="NAME" x="347.98" y="205.74" size="2.0828" layer="95" ratio="6"/>
+<attribute name="VALUE" x="347.98" y="152.4" size="2.0828" layer="95" ratio="6"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4801,6 +4864,30 @@ Used in manufacturing several products at SparkFun.
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="335.28" y1="101.6" x2="347.98" y2="101.6" width="0.1524" layer="91"/>
 <label x="345.44" y="101.6" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$6"/>
+<wire x1="342.9" y1="177.8" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
+<label x="332.74" y="177.8" size="1.778" layer="95"/>
+<wire x1="330.2" y1="177.8" x2="330.2" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$8"/>
+<wire x1="330.2" y1="172.72" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="167.64" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
+<label x="332.74" y="167.64" size="1.778" layer="95"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$7"/>
+<wire x1="342.9" y1="172.72" x2="330.2" y2="172.72" width="0.1524" layer="91"/>
+<label x="332.74" y="172.72" size="1.778" layer="95"/>
+<junction x="330.2" y="172.72"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$9"/>
+<wire x1="342.9" y1="162.56" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="332.74" y="162.56" size="1.778" layer="95"/>
+<wire x1="330.2" y1="167.64" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
+<junction x="330.2" y="167.64"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$10"/>
+<wire x1="342.9" y1="157.48" x2="330.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="332.74" y="157.48" size="1.778" layer="95"/>
+<wire x1="330.2" y1="162.56" x2="330.2" y2="157.48" width="0.1524" layer="91"/>
+<junction x="330.2" y="162.56"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5023,6 +5110,30 @@ Used in manufacturing several products at SparkFun.
 <wire x1="38.1" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <label x="27.94" y="119.38" size="1.778" layer="95"/>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$1"/>
+<wire x1="342.9" y1="203.2" x2="330.2" y2="203.2" width="0.1524" layer="91"/>
+<label x="332.74" y="203.2" size="1.778" layer="95"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$2"/>
+<wire x1="342.9" y1="198.12" x2="330.2" y2="198.12" width="0.1524" layer="91"/>
+<label x="332.74" y="198.12" size="1.778" layer="95"/>
+<wire x1="330.2" y1="203.2" x2="330.2" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$3"/>
+<wire x1="342.9" y1="193.04" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
+<label x="332.74" y="193.04" size="1.778" layer="95"/>
+<wire x1="330.2" y1="198.12" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
+<junction x="330.2" y="198.12"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$4"/>
+<wire x1="342.9" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
+<label x="332.74" y="187.96" size="1.778" layer="95"/>
+<wire x1="330.2" y1="193.04" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
+<junction x="330.2" y="193.04"/>
+<pinref part="BACKPLANE_POWER" gate="A" pin="P$5"/>
+<wire x1="342.9" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
+<label x="332.74" y="182.88" size="1.778" layer="95"/>
+<wire x1="330.2" y1="187.96" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
+<junction x="330.2" y="187.96"/>
 </segment>
 </net>
 <net name="DATA" class="0">
