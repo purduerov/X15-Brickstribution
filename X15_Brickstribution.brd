@@ -2321,7 +2321,7 @@ maxErrors = 50
 <via x="84.328" y="47.752" extent="1-16" drill="2.54"/>
 <wire x1="61.468" y1="47.244" x2="83.82" y2="47.244" width="1.524" layer="16"/>
 <wire x1="83.82" y1="47.244" x2="84.328" y2="47.752" width="1.524" layer="16"/>
-<polygon width="0.762" layer="1" thermals="no">
+<polygon width="0.762" layer="1" isolate="0.762" thermals="no">
 <vertex x="96.012" y="75.946"/>
 <vertex x="12.446" y="75.946"/>
 <vertex x="7.366" y="70.866"/>
@@ -2339,6 +2339,8 @@ maxErrors = 50
 <via x="39.116" y="48.768" extent="1-16" drill="5.08"/>
 <wire x1="29.21" y1="57.404" x2="37.846" y2="48.768" width="5.08" layer="16"/>
 <wire x1="37.846" y1="48.768" x2="39.116" y2="48.768" width="5.08" layer="16"/>
+<wire x1="71.9582" y1="42.3282" x2="67.5386" y2="42.379" width="0" layer="19" extent="1-1"/>
+<wire x1="76.4032" y1="40.7298" x2="71.9582" y2="42.3282" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V_GND">
 <contactref element="12V_GND_TEST" pad="1"/>
@@ -2384,7 +2386,7 @@ maxErrors = 50
 <contactref element="D11" pad="C"/>
 <contactref element="BACKPLANE_CONN" pad="05"/>
 <contactref element="BACKPLANE_CONN" pad="06"/>
-<polygon width="0.762" layer="1" thermals="no">
+<polygon width="0.762" layer="1" isolate="0.762" thermals="no">
 <vertex x="76.962" y="0"/>
 <vertex x="152.146" y="0"/>
 <vertex x="152.146" y="58.42"/>
