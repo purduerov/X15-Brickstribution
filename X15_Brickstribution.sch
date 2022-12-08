@@ -3525,78 +3525,6 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.49KOHM" urn="urn:adsk.eagle:component:39699/1" prefix="R" library_version="1">
-<description>&lt;h3&gt;2.49kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09568"/>
-<attribute name="VALUE" value="2.49k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="470OHM" urn="urn:adsk.eagle:component:39725/1" prefix="R" library_version="1">
-<description>&lt;h3&gt;470Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07869"/>
-<attribute name="VALUE" value="470"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="150OHM" urn="urn:adsk.eagle:component:39692/1" prefix="R" library_version="1">
-<description>&lt;h3&gt;150Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-11028"/>
-<attribute name="VALUE" value="150"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="100OHM" urn="urn:adsk.eagle:component:39762/1" prefix="R" library_version="1">
 <description>&lt;h3&gt;100Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -3793,6 +3721,101 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <technology name="">
 <attribute name="PROD_ID" value="RES-09231"/>
 <attribute name="VALUE" value="20k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.5KOHM" urn="urn:adsk.eagle:component:39684/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;1.5kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08306"/>
+<attribute name="VALUE" value="1.5k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="470OHM" urn="urn:adsk.eagle:component:39725/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;470Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07869"/>
+<attribute name="VALUE" value="470"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20OHM" urn="urn:adsk.eagle:component:39701/1" prefix="R" library_version="1">
+<description>RES-07862</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07862"/>
+<attribute name="VALUE" value="20"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="150OHM" urn="urn:adsk.eagle:component:39692/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;150Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-11028"/>
+<attribute name="VALUE" value="150"/>
 </technology>
 </technologies>
 </device>
@@ -5017,6 +5040,74 @@ Used in manufacturing several products at SparkFun.
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED-YELLOW" urn="urn:adsk.eagle:component:39387/1" prefix="D" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Yellow SMD LED&lt;/h3&gt;
+
+Used in manufacturing several products at SparkFun. 
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; -  SMD 0603  package&lt;a href=http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608SYCK"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 0603 -SMART&lt;/b&gt; - SMART SMD 0603  package (more efficient/more expensive) &lt;a href="http://www.osram-os.com/osram_os/en/products/product-catalog/led-light-emitting-diodes/smartled-0603/ly-l29k/index.jsp"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; LilyPad&lt;/b&gt; - SMD1206  package&lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150YUS4.pdf"&gt;[Product Datasheet]&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13794”&gt;Blynk Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13225”&gt;XBee Explorer Serial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LILYPAD" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09909"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39354/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09003"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603-SMART" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39354/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11230" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -5415,9 +5506,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="X15_Brickstribution" deviceset="EMZR500ADA331MJA0G" device="CAP_MZR_JA0_NIP-M" value="0.330mF"/>
 <part name="C2" library="X15_Brickstribution" deviceset="EMZR500ADA331MJA0G" device="CAP_MZR_JA0_NIP-M" value="0.330mF"/>
 <part name="C3" library="X15_Brickstribution" deviceset="EMZR500ADA331MJA0G" device="CAP_MZR_JA0_NIP-M" value="0.330mF"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.49KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="2.49k"/>
-<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="150OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="150"/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="+5V_TEST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="+3.3V_TEST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="5V_GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
@@ -5429,9 +5517,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="7.4V_GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="+7.4VOUT2_TEST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="+7.4V_SERVO_TEST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
-<part name="R21" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
-<part name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="R22" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="12-&gt;7.4CONVERSION" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="2"/>
 <part name="U5" library="X15_Brickstribution" deviceset="IC_L4970A" device=""/>
@@ -5466,8 +5551,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R30" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="20k"/>
 <part name="BACKPLANE_POWER" library="X15_Brickstribution" deviceset="CONN_MPPT-10-01-01-L-RA-SD" device=""/>
 <part name="U$2" library="X15_Brickstribution" deviceset="CONN_BMR480_CONNECTOR" device=""/>
-<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
-<part name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED"/>
 <part name="U$1" library="X15_Brickstribution" deviceset="CONN_DISTRIBUTION_TO_CONVERSION" device=""/>
 <part name="H1" library="X15_Brickstribution" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
 <part name="H2" library="X15_Brickstribution" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
@@ -5479,6 +5562,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$3" library="X15_Brickstribution" deviceset="TRANS_IRF1018EPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
 <part name="R2" library="X15_Brickstribution" deviceset="DIODE_RBQ30NS45AFHTL" device=""/>
 <part name="CR1" library="X15_Brickstribution" deviceset="DIODE_SMBJ5357B-TP" device="DIODE_DO-214AA_4P38X3P62_MCC-M" value="Zener"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.5KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1.5k"/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
+<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="20"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="150OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="150"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="150OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="150"/>
 </parts>
 <sheets>
 <sheet>
@@ -5552,18 +5643,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="126.5428" y="205.8162" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="134.1628" y="204.7494" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R8" gate="G$1" x="254" y="119.38" smashed="yes">
-<attribute name="NAME" x="254" y="120.904" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="117.856" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R10" gate="G$1" x="254" y="93.98" smashed="yes">
-<attribute name="NAME" x="254" y="95.504" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="92.456" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R11" gate="G$1" x="254" y="81.28" smashed="yes">
-<attribute name="NAME" x="254" y="82.804" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="79.756" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="+5V_TEST" gate="G$1" x="149.86" y="71.12" smashed="yes">
 <attribute name="VALUE" x="147.32" y="66.294" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="147.32" y="74.168" size="1.778" layer="95" font="vector"/>
@@ -5608,18 +5687,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="185.42" y="15.494" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="185.42" y="23.368" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="R21" gate="G$1" x="254" y="68.58" smashed="yes">
-<attribute name="NAME" x="254" y="70.104" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="67.056" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="D12" gate="G$1" x="269.24" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="273.812" y="65.151" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="273.812" y="70.485" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
-</instance>
-<instance part="R22" gate="G$1" x="254" y="106.68" smashed="yes">
-<attribute name="NAME" x="254" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="D13" gate="G$1" x="269.24" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="273.812" y="103.251" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="273.812" y="108.585" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
@@ -5629,14 +5696,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="347.98" y="152.4" size="2.0828" layer="95" ratio="6"/>
 </instance>
 <instance part="U$2" gate="G$1" x="53.34" y="198.12" smashed="yes"/>
-<instance part="R12" gate="G$1" x="254" y="58.42" smashed="yes">
-<attribute name="NAME" x="254" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="254" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="D14" gate="G$1" x="269.24" y="58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="273.812" y="54.991" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="273.812" y="60.325" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
-</instance>
 <instance part="U$1" gate="G$1" x="48.26" y="114.3" smashed="yes">
 <attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95"/>
 </instance>
@@ -5665,6 +5724,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="96.2406" y="119.5324" size="3.4798" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="95.1738" y="111.3028" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="96.2406" y="119.5324" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="R3" gate="G$1" x="254" y="119.38" smashed="yes">
+<attribute name="NAME" x="254" y="120.904" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="117.856" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="D2" gate="G$1" x="269.24" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="273.812" y="65.151" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="273.812" y="70.485" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
+<instance part="D3" gate="G$1" x="269.24" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="273.812" y="54.991" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="273.812" y="60.325" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
+<instance part="R7" gate="G$1" x="254" y="106.68" smashed="yes">
+<attribute name="NAME" x="254" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="254" y="93.98" smashed="yes">
+<attribute name="NAME" x="254" y="95.504" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="92.456" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R8" gate="G$1" x="254" y="81.28" smashed="yes">
+<attribute name="NAME" x="254" y="82.804" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="79.756" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="254" y="68.58" smashed="yes">
+<attribute name="NAME" x="254" y="70.104" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="67.056" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="254" y="58.42" smashed="yes">
+<attribute name="NAME" x="254" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="254" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -5716,9 +5807,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="132.08" y1="213.36" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="119.38" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
 <label x="238.76" y="119.38" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="48V_GND" class="0">
@@ -5765,14 +5856,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="167.64" y="20.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="274.32" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="284.48" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="274.32" y1="58.42" x2="287.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="284.48" y="58.42" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="D14" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="12V_GND" class="0">
@@ -5872,9 +5963,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$2" gate="G$1" pin="+12V0"/>
 </segment>
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
 <label x="238.76" y="106.68" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="167.64" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
@@ -5990,9 +6081,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="167.64" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VOUT+_5"/>
@@ -6012,9 +6103,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="167.64" y="50.8" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
 <label x="238.76" y="81.28" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VOUT+_3"/>
@@ -6024,23 +6115,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D8" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="119.38" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="81.28" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VOUT2" class="0">
@@ -6050,9 +6141,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="205.74" y="30.48" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="238.76" y="58.42" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VOUT1" class="0">
@@ -6062,9 +6153,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="167.64" y="30.48" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="68.58" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
 <label x="238.76" y="68.58" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+7.4V_SERVO" class="0">
@@ -6076,23 +6167,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="68.58" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="D13" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="58.42" x2="266.7" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
