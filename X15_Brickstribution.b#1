@@ -2252,6 +2252,8 @@ maxErrors = 50
 <vertex x="14.478" y="19.05"/>
 <vertex x="14.478" y="32.258"/>
 </polygon>
+<wire x1="25.9842" y1="64.604" x2="26.1502" y2="64.77" width="1.27" layer="16"/>
+<wire x1="34.798" y1="64.77" x2="26.1502" y2="64.77" width="1.27" layer="16"/>
 <contactref element="R3" pad="1"/>
 <wire x1="46.2652" y1="44.6532" x2="46.2652" y2="43.492" width="0.762" layer="1"/>
 <wire x1="46.2652" y1="44.6532" x2="46.316" y2="44.704" width="0.762" layer="1"/>
@@ -2259,8 +2261,6 @@ maxErrors = 50
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="1"/>
-<wire x1="25.9842" y1="64.604" x2="32.346" y2="64.604" width="1.27" layer="16"/>
-<wire x1="32.346" y1="64.604" x2="32.512" y2="64.77" width="1.27" layer="16"/>
 </signal>
 <signal name="48V_GND">
 <contactref element="D1" pad="A"/>
